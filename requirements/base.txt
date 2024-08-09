@@ -1,13 +1,17 @@
 torch
-pytorch_lightning
-torchmetrics
+torchtune
+torchchat
+llama-toolchain
 huggingface_hub
 transformers
 datasets
 safetensors
-ray[data, train, tune, serve]
 wandb
+weave
+unstructured
+pinecone-client[grpc]
 typer
 plotly
+dash
 python-dotenv
 omegaconf

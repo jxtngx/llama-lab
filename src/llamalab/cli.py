@@ -9,5 +9,24 @@
 # Unless required by applicable law or agreed to in writing, software
 # distributed under the License is distributed on an "AS IS" BASIS,
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# the License for the specific language governing permissions and
+# See the License for the specific language governing permissions and
 # limitations under the License.
+
+import os
+from pathlib import Path
+
+import pandas as pd
+import typer
+from rich.pretty import pprint
+from typing_extensions import Annotated
+
+from llamalab.utils.config import load_config
+
+cfg = load_config(os.path.join(os.getcwd(), "training-config.yaml"))
+
+app = typer.Typer()
+
+
+@app.callback()
+def callback() -> None:
+    pass

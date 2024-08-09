@@ -19,7 +19,7 @@ from setuptools import find_packages, setup
 rootdir = Path(__file__).parent
 long_description = (rootdir / "README.md").read_text()
 
-package_name = "lmlab"
+package_name = "llamalab"
 
 setup(
     name=package_name,

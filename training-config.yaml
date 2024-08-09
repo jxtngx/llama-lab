@@ -14,7 +14,7 @@ logs:
   ray: ${oc.env:PWD}/logs/ray
 
 logger:
-  project: lmlab-trials
+  project: llamalab-trials
 
 model:
   name: CustomModel
